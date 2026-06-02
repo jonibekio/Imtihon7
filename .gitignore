@@ -1,0 +1,48 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Environment secrets
+.env
+.env.*
+!.env.example
+
+# Django local/generated files
+*.log
+db.sqlite3
+db.sqlite3-journal
+staticfiles/
+media/
+
+# Test and coverage output
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+
+# Type/lint caches
+.mypy_cache/
+.ruff_cache/
+.pyre/
+
+# Build/package output
+build/
+dist/
+*.egg-info/
+
+# Local IDE/editor files
+.idea/
+.vscode/
+tempCodeRunnerFile.py
+
+# OS files
+.DS_Store
+Thumbs.db
