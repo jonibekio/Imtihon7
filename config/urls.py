@@ -15,15 +15,15 @@ urlpatterns = [
     path('api/accounts/', include('accounts.urls')),
 
     path('api/categories/', include('categories.urls')),
-    path('api/products/', include('products.urls')),
+    path('api/', include('products.urls')),
     path('api/cart/', include('cart.urls')),
-    path('api/orders/', include('orders.urls')),
-    path('api/addresses/', include('addresses.urls')),
-    path('api/reviews/', include('reviews.urls')),
+    path('api/', include('orders.urls')),
+    path('api/', include('addresses.urls')),
+    path('api/', include('reviews.urls')),
     path('api/wishlist/', include('wishlist.urls')),
-    path('api/payments/', include('payments.urls')),
-    path('api/notifications/', include('notifications.urls')),
-    path('api/profiles/', include('profiles.urls')),
+    path('api/', include('payments.urls')),
+    path('api/', include('notifications.urls')),
+    path('api/', include('profiles.urls')),
 ]
 
 if settings.DEBUG:
