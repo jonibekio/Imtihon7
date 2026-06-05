@@ -20,9 +20,6 @@ urlpatterns = [
     path('api/', include('orders.urls')),
     path('api/', include('addresses.urls')),
     path('api/', include('reviews.urls')),
-    path('api/wishlist/', include('wishlist.urls')),
-    path('api/', include('payments.urls')),
-    path('api/', include('notifications.urls')),
     path('api/', include('profiles.urls')),
 ]
 

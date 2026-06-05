@@ -37,11 +37,8 @@ INSTALLED_APPS = [
     'categories',
     'cart',
     'orders',
-    'payments',
     'reviews',
-    'notifications',
     'addresses',
-    'wishlist',
 
     #Third party applar
     "storages",
